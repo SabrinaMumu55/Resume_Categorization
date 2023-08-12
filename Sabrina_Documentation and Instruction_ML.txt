@@ -1,0 +1,55 @@
+Documentation on the code:
+
+
+1. The chosen model and rational behind the selection:
+
+I have chosen the Random Forest Classifier Model to train the machine.
+As it combines predictions from multiple decision trees. Thus, gives a higher
+accuracy that another models.
+
+I have also used grod search in implementing the model so that the model
+can use the best parameters possible.
+
+
+
+
+2. Any pre-processing or feature extraction model employed:
+
+The csv file contained some bad lines those were skipped while reading. Then
+two columns named "ID" and "Resume_html" were removed as the ID does not
+contain anything important to train the machine and the other column
+has html format which is given as plain text in another column named "Resume_str"
+
+Then, tokenization was applied on the "Resume_str" column to extract the main words
+
+After this, tf-idf was employed for feature extraction from the tokens
+
+
+
+
+3. Instruction on how to run the script and expected outputs
+
+a) At first execute the "Sabrina_Assignment_ML.py" file with the main csv
+file collected from Kaggle.
+
+b) After executing this file, two joblib file named "RFC_model.joblib"
+and "tfidf_vectorizer.joblib" will be created.
+
+c) Download these files
+
+d) Now execute "script.py" file with these two joblib files uploaded. I
+have also used "test.csv" file while executing the "script.py" file
+to make the machine predict the class and categorize. You can use your
+preferred test file to test how the model works.
+
+e) After the successful execution of "script.py" file, a csv file named
+"categorized_resumes.csv" will be created that will contain the name of the
+csv file along with their categories predicted by the model
+
+f) Also, you will find the resumes as '.txt' file in the output folder with
+the categorization.
+
+
+As for the command line execution, I'm extremely sorry to say that I
+could not complete this task.
+
