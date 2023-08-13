@@ -50,6 +50,3 @@ f) Also, you will find the resumes as '.txt' file in the output folder with
 the categorization.
 
 
-As for the command line execution, I'm extremely sorry to say that I
-could not complete this task.
-
