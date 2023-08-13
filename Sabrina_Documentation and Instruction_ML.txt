@@ -50,3 +50,5 @@ f) Also, you will find the resumes as '.txt' file in the output folder with
 the categorization.
 
 
+I tried to execute this code from the command line but it was not completely successful. However, 
+on Google Colab or Jupyter notebook, this code executes completely and successfully.
