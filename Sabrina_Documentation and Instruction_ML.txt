@@ -44,7 +44,7 @@ preferred test file to test how the model works.
 
 e) After the successful execution of "script.py" file, a csv file named
 "categorized_resumes.csv" will be created that will contain the name of the
-csv file along with their categories predicted by the model
+'.txt' resume files along with their categories predicted by the model
 
 f) Also, you will find the resumes as '.txt' file in the output folder with
 the categorization.
